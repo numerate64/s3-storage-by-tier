@@ -1,15 +1,4 @@
-    <style id="bmc-support-style">
-      .bmc-support {
-        display: flex; justify-content: center; align-items: center; box-sizing: border-box; width: 100%;
-        margin: 0; padding: 0.55rem 1rem; border-bottom: 1px solid #e0d5bf;
-        background: rgba(255, 251, 240, 0.98); color: #5b3a06; text-align: center;
-        font: 600 0.9rem/1.4 system-ui, sans-serif;
-      }
-      .bmc-support a { color: inherit; text-decoration: none; white-space: nowrap; }
-      .bmc-support a:hover, .bmc-support a:focus-visible { text-decoration: underline; text-underline-offset: 0.15em; }
-      .bmc-support a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
-    </style>
-<div class="bmc-support"><a href="https://buymeacoffee.com/Caliche" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a></div>
+<div style="box-sizing:border-box;width:100%;padding:0.55rem 1rem;border-bottom:1px solid #e0d5bf;background:rgba(255,251,240,0.98);text-align:center;font:600 0.9rem/1.4 system-ui,sans-serif"><a href="https://buymeacoffee.com/Caliche" target="_blank" rel="noopener noreferrer" style="color:#5b3a06;text-decoration:none;white-space:nowrap">☕ Buy me a coffee</a></div>
 
 # s3-storage-by-tier
 
