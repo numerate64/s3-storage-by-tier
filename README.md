@@ -1,8 +1,15 @@
-<style>
-  .bmc-support { position: fixed; top: 12px; right: 12px; z-index: 10000; padding: 8px 12px; border: 1px solid #d8c69f; border-radius: 999px; background: rgba(255, 251, 240, 0.97); box-shadow: 0 2px 10px rgba(23, 32, 38, 0.16); color: #5b3a06; font: 600 0.9rem/1.3 system-ui, sans-serif; text-decoration: none; white-space: nowrap; }
-  @media (max-width: 520px) { .bmc-support { left: 50%; right: auto; transform: translateX(-50%); } }
-</style>
-<a class="bmc-support" href="https://buymeacoffee.com/Caliche" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a>
+    <style id="bmc-support-style">
+      .bmc-support {
+        display: flex; justify-content: center; align-items: center; box-sizing: border-box; width: 100%;
+        margin: 0; padding: 0.55rem 1rem; border-bottom: 1px solid #e0d5bf;
+        background: rgba(255, 251, 240, 0.98); color: #5b3a06; text-align: center;
+        font: 600 0.9rem/1.4 system-ui, sans-serif;
+      }
+      .bmc-support a { color: inherit; text-decoration: none; white-space: nowrap; }
+      .bmc-support a:hover, .bmc-support a:focus-visible { text-decoration: underline; text-underline-offset: 0.15em; }
+      .bmc-support a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+    </style>
+<div class="bmc-support"><a href="https://buymeacoffee.com/Caliche" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a></div>
 
 # s3-storage-by-tier
 
