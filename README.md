@@ -57,3 +57,7 @@ git clone git@github.com:numerate64/s3-storage-by-tier.git
 cd s3-storage-by-tier
 chmod +x s3-storage-by-tier.sh
 ```
+
+---
+
+[☕ Buy me a coffee](https://buymeacoffee.com/Caliche)
